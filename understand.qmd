@@ -42,7 +42,7 @@ import plotly.express as px
 
 # Extract
 url = "https://raw.githubusercontent.com/businessdatasolutions/courses/main/datamining-n/datasets/ai.csv"
-rawDF = pd.read_csv(url).sort_values(by=['year', 'Domain'])
+rawDF = pd.read_csv(url)
 # Transform
 rawDF = rawDF.sort_values(by=['year', 'Domain'])
 rawDF.head()
