@@ -4,7 +4,7 @@
 
 </iframe>
 
-Naïve Bayes is commonly used algorithm in data mining. It works by using statistical probabilities to classify data points based on their observed characteristics.
+Naïve Bayes is a commonly used algorithm in data mining. It works by using statistical probabilities to classify data points based on their observed characteristics.
 
 ```{r echo=FALSE, message=TRUE, warning=TRUE}
 index <- c("2")
